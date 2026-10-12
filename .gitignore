@@ -1,0 +1,34 @@
+# Logs
+*.log
+/var/log/
+
+# Packages and Archives
+*.rpm
+*.tgz
+*.tar.gz
+*.zip
+
+# Temporary staging and keys
+stage_mongodb/
+/opt/stage_mongodb/
+mongod-keyfile
+*.keyfile
+
+# Backups
+*.bak
+*.orig
+*.pre-rs
+
+# OS and Editor files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
